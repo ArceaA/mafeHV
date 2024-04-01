@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main,
+footer {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #f0f0f0;
+    text-align: center;
+    position: relative;
+    /* Para posicionar la imagen */
+}
+section{
+    background-color: rgb(187, 183, 183);
+    box-shadow: 2px black;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    /* Para hacer el círculo */
+    margin: 0 auto 20px;
+    /* Alinear la imagen en el centro */
+}
+
+.profile-picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    /* Para asegurar que la imagen sea circular */
+}
+
+h1,
+h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
