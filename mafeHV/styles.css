@@ -20,6 +20,9 @@ header {
     /* Para posicionar la imagen */
 }
 
+section{
+    background-color: rgb(187, 183, 183);
+}
 .profile-picture {
     width: 150px;
     height: 150px;
